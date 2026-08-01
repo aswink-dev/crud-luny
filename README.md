@@ -95,6 +95,6 @@ const allPosts = await posts.findMany({ status: 'published' });
 Contributions, issues, and feature requests are welcome!
 
 📜 License
-Distributed under the MIT License. See LICENSE for more information.
+MIT © Aswin K
 
 
