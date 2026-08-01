@@ -1,25 +1,25 @@
-# 📦 @aswink-dev/crud-luny
+# @aswink-dev/crud-luny
 
-[![npm version](https://img.shields.io/npm/v/@aswink-dev/crud-luny.svg)](https://www.npmjs.com/package/@aswink-dev/crud-luny)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+> A lightweight, zero-dependency in-memory CRUD engine and file management utility designed for rapid Next.js prototyping and full-stack Node.js applications.
 
-> A lightweight, intuitive utility library for seamless Data & File CRUD operations in Node.js and Next.js applications.
+[![npm version](https://img.shields.io/npm/v/@aswink-dev/crud-luny.svg?color=blue)](https://www.npmjs.com/package/@aswink-dev/crud-luny)
+[![license](https://img.shields.io/npm/l/@aswink-dev/crud-luny.svg)](LICENSE)
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
 
-* **⚡ Simple Data CRUD:** Manage in-memory or database entities with clean, predictable APIs.
-* **📁 New: File CRUD Operations:** Create, read, update, stream, and delete local files with minimal boilerplate.
-* **🔒 Type Safe:** Built with TypeScript for auto-completion and compile-time checks.
-* **🌐 Next.js & Node.js Ready:** Smooth integration with server actions, API routes, or standard backend services.
+Setting up database schemas and writing repetitive `fs`/`path` streams just to build a prototype or test full-stack features slows down development. 
+
+`@aswink-dev/crud-luny` provides:
+- **`CrudLuny`**: An instant, zero-config in-memory collection engine for managing data without setting up external databases.
+- **`FileLuny`**: A simplified file-handling layer built to streamline file uploads, extension checks, and directory management in Next.js Server Actions.
 
 ---
 
 ## 📦 Installation
 
 ```bash
-# Using npm
 npm install @aswink-dev/crud-luny
 
 # Using yarn
