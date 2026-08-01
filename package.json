@@ -1,12 +1,20 @@
 {
   "name": "@aswink-dev/crud-luny",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "type": "module",
   "main": "index.js",
   "exports": "./index.js",
   "files": [
     "index.js"
   ],
+  "keywords": [
+  "crud",
+  "nextjs",
+  "file-upload",
+  "in-memory",
+  "prototyping",
+  "server-actions"
+],
   "dependencies": {
     "@aswink-dev/crud-luny": "^1.1.0",
     "@octokit/rest": "^21.1.1"

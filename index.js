@@ -104,3 +104,42 @@ export class GitHubManager {
     return response.data;
   }
 }
+
+
+export class CrudLuny {
+  constructor(collectionName) {
+    this.collectionName = collectionName;
+    this.data = new Map();
+  }
+
+  async create(item) {
+    const id = Date.now().toString();
+    const newItem = { id, ...item };
+    this.data.set(id, newItem);
+    return newItem;
+  }
+
+  async findMany() {
+    return Array.from(this.data.values());
+  }
+
+  async delete(id) {
+    return this.data.delete(id);
+  }
+}
+
+export class FileLuny {
+  constructor(options) {
+    this.uploadDir = options.uploadDir || './public/uploads';
+  }
+
+  async saveFile({ filename, content }) {
+    // File saving logic
+    return { filename, path: `${this.uploadDir}/${filename}` };
+  }
+
+  async deleteFile(filename) {
+    // File deletion logic
+    return true;
+  }
+}
