@@ -2,8 +2,8 @@
 
 > A lightweight, zero-dependency in-memory CRUD engine and file management utility designed for rapid Next.js prototyping and full-stack Node.js applications.
 
-[![npm version](https://img.shields.io/npm/v/@aswink-dev/crud-luny.svg?color=blue)](https://www.npmjs.com/package/@aswink-dev/crud-luny)
-[![license](https://img.shields.io/npm/l/@aswink-dev/crud-luny.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/@aswink-dev/crud-luny.svg)](https://www.npmjs.com/package/@aswink-dev/crud-luny)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
